@@ -1,13 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <title>cssMemSlider by Andrei Chaika</title>
 </head>
+
 <body>
-    <img src="cyanide-happiness.jpg">
-    <script	type="module" src="script.js"></script>
+    <div class="container">
+        <input type="radio" name="r" id="r1" checked>
+        <input type="radio" name="r" id="r2">
+        <input type="radio" name="r" id="r3">
+        <input type="radio" name="r" id="r4">
+        <input type="radio" name="r" id="r5">
+        <input type="radio" name="r" id="r6">
+        <input type="radio" name="r" id="r7">
+        <input type="radio" name="r" id="r8">
+        <div class="slider-window">
+            <div class="slider-wrapper">
+                <div class="slide s1"><img class="img" src="./images/slide1.jpg" alt=""></div>
+                <div class="slide"><img src="./images/slide2.jpg" alt=""></div>
+                <div class="slide"><img src="./images/slide3.jpg" alt=""></div>
+                <div class="slide"><img src="./images/slide4.jpg" alt=""></div>
+                <div class="slide"><img src="./images/slide5.jpg" alt=""></div>
+                <div class="slide"><img src="./images/slide6.jpg" alt=""></div>
+                <div class="slide"><img src="./images/slide7.jpg" alt=""></div>
+                <div class="slide"><img src="./images/slide8.jpg" alt=""></div>
+            </div>
+        </div>
+        <section class="text-nav">
+            <div class="slider-window-text">
+                <div class="slider-text">
+                    <div class="slide s1"><div class="sl">Как же ты догадался?? :)</div></div>
+                    <div class="slide"><div class="sl">Жиза...</div></div>
+                    <div class="slide"><div class="sl">Не хватает дискорда</div></div>
+                    <div class="slide"><div class="sl">Да ёшкин кот -_-</div></div>
+                    <div class="slide"><div class="sl">Что есть, то есть :)</div></div>
+                    <div class="slide"><div class="sl">Только ночь, только хардкор</div></div>
+                    <div class="slide"><div class="sl">Жизнь - боль</div></div>
+                    <div class="slide"><div class="sl">Особенно при совмещении с учёбой :))</div></div>
+                </div>
+            </div>
+            <nav class="navigation">
+                <label for="r1" class="bar">
+                    <div class="dot"></div>
+                </label>
+                <label for="r2" class="bar">
+                    <div class="dot"></div>
+                </label>
+                <label for="r3" class="bar">
+                    <div class="dot"></div>
+                </label>
+                <label for="r4" class="bar">
+                    <div class="dot"></div>
+                </label>
+                <label for="r5" class="bar">
+                    <div class="dot"></div>
+                </label>
+                <label for="r6" class="bar">
+                    <div class="dot"></div>
+                </label>
+                <label for="r7" class="bar">
+                    <div class="dot"></div>
+                </label>
+                <label for="r8" class="bar">
+                    <div class="dot"></div>
+                </label>
+            </nav>
+        </section>
+    </div>
 </body>
 </html>
